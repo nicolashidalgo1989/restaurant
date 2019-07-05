@@ -1127,6 +1127,12 @@ address,.subscribe > p {
         left: 20px;
         right: 20px;
         top: 20px;
+    }        
+    #small_carousel .carousel-inner > .item > a > img, 
+    #small_carousel .carousel-inner > .item > img{
+        height: 300px;
+        width: auto;
+        max-width: unset;
     }
     #small_carousel hr {
         width: 200px;
